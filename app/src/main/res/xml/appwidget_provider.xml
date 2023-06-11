@@ -1,0 +1,10 @@
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget_layout"
+    android:minHeight="72dp"
+    android:minWidth="144dp"
+    android:updatePeriodMillis="60000"
+    android:previewImage="@mipmap/ic_monkey"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard">
+</appwidget-provider>

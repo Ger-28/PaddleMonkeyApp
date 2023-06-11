@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PaddleMonkey" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/naranja</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/naranja_claro</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/naranja</item>
+        <item name="colorSecondaryVariant">@color/naranja</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="cardBackgroundColor">@color/naranja_claro</item>
+    </style>
+
+    <style name="Theme.PaddleMonkey.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.PaddleMonkey.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.PaddleMonkey.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

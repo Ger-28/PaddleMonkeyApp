@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">PaddleMonkey</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PaddleMonkey</string>
+    <string name="nav_header_subtitle">PaddleMonkey@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_salas">Salas</string>
+    <string name="menu_reservas">Reservas</string>
+    <string name="menu_localizacion">Localización</string>
+    <string name="pistas_dobles">Pistas Dobles</string>
+    <string name="Nombre_de_la_pista">Nombre de la sala</string>
+    <string name="transporteMedios">Medios de transporte para acceder a las instalaciones</string>
+    <string name="descripcionFotoInstalaciones">Foto de instalaciones</string>
+    <string name="Autobuses">Autobuses</string>
+    <string name="textoBotonAutobuses">Consultar autobuses</string>
+    <string name="tren">Trenes</string>
+    <string name="textoBotonTrenes">Consultar trenes</string>
+    <string name="mapa">Mapa</string>
+    <string name="botonMapaText">Consultar mapa</string>
+    <string name="mapText">Mapa de localización de las instalaciones</string>
+    <string name="title_activity_maps">Localización</string>
+    <string name="descripcionHome">¿Eres un aficionado/a al pádel? Entonces, estás en el lugar adecuado. En nuestra app puedes reservar tu pista de pádel y disfrutar de tu deporte favorito siempre que quieras.</string>
+    <string name="descripcionLocalizacion">En esta sección se pueden encontrar los distintos medios de transporte con los que llegar a nuestras instalaciones además de la ubicación de las mismas</string>
+    <string name="textoFotoPista">Foto de la pista</string>
+    <string name="caracteristicasTexto1">Capacidad</string>
+    <string name="caracteristicasTexto2">Cubierta</string>
+    <string name="caracteristicasTexto3">Paredes</string>
+    <string name="caracteristicasTexto4">Precio</string>
+    <string name="descripcionTexto">Descripcion de la pista</string>
+    <string name="reserva_ahora">RESERVA AHORA</string>
+    <string name="informacionContacto">Información de contacto</string>
+    <string name="imagen_inicial_desc">Imagen inicial</string>
+    <string name="imagen_logo">Imagen logo</string>
+    <string name="contacto">Teléfono: (+34)682598567\nEmail: padelmkey@gmail.com</string>
+    <string name="dni">DNI</string>
+    <string name="nombre_reserva">Nombre reserva</string>
+    <string name="telefono_reserva">Telefono reserva</string>
+    <string name="email_reserva">email reserva</string>
+    <string name="pista_reserva">Pista reserva</string>
+    <string name="fecha_inicio">Fecha inicio</string>
+    <string name="fecha_fin">Fecha fin</string>
+    <string name="numero_de_asistentes">Numero de asistentes</string>
+    <string name="comentario">Comentario</string>
+    <string name="botonFormularioText">Hacer reserva</string>
+    <string name="textFormReserva">Hacer una reserva</string>
+    <string name="nombreText">Nombre:</string>
+    <string name="hintNombre">Introduzca su nombre</string>
+    <string name="DNItext">DNI:</string>
+    <string name="hintDNI">Introduzca su DNI</string>
+    <string name="telefonotexto">Telefono:</string>
+    <string name="hintTLF">Introduzca su teléfono</string>
+    <string name="emailText">Email:</string>
+    <string name="hintEmail">Introduzca su email</string>
+    <string name="fechaText">Fecha:</string>
+    <string name="hintFecha">Introduzca la fecha en formato dd/mm/aaaa</string>
+    <string name="salaText">Sala:</string>
+    <string name="hintApellidos">Introduzca sus apellidos</string>
+    <string name="apellidosText">Apellidos:</string>
+    <string name="hiText">Hora inicio:</string>
+    <string name="hintHI">Introduzca la hora de inicio en formato hh:mm</string>
+    <string name="textHF">Hora fin:</string>
+    <string name="asistentesText">Nº asistentes:</string>
+    <string name="hintHF">Introduzca la hora de fin en formato hh:mm</string>
+    <string name="hintAsistentes">Introduzca el número de asistentes</string>
+    <string name="textComentario">Comentario:</string>
+    <string name="hintComentarios">Introduzca comentarios adicionales</string>
+    <string name="apellido_reserva">Apellido reserva</string>
+    <string name="fecha_actual">Fecha actual</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="modificar">Modificar</string>
+    <string name="descargar_pdf">Descargar PDF</string>
+    <string name="ver_mas_detalles">Ver mas detalles</string>
+    <string name="actualizar_reserva">Actualizar Reserva</string>
+    <string name="imagen_generica">imagen generica</string>
+
+    <string-array name="salas">
+        <item>Pista Babuino</item>
+        <item>Pista Machango</item>
+        <item>Pista Macaco Japones</item>
+        <item>Pista Tití Rojizo</item>
+        <item>Pista Chimpancé</item>
+        <item>Pista Gorila Oriental</item>
+        <item>Pista Orangután</item>
+        <item>Pista Macaco Gibraltareño</item>
+    </string-array>
+
+</resources>

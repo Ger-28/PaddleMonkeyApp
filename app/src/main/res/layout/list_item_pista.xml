@@ -1,0 +1,200 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardBackgroundColor="?attr/colorOnPrimary">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:id="@+id/fotoPista"
+                android:contentDescription="@string/textoFotoPista"
+                android:layout_width="300sp"
+                android:layout_height="200sp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_babuino"/>
+            <TextView
+                android:id="@+id/nombrePista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/Nombre_de_la_pista"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@id/fotoPista"/>
+            <TableLayout
+                android:id="@+id/tablaCaracteristicas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:showDividers="beginning|middle|end"
+                android:divider="@color/white"
+                android:layout_below="@id/nombrePista">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF" />
+
+                <TableRow tools:ignore="VisualLintBounds">
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/caracteristicasPista1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/caracteristicasTexto1" />
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/capacidadPistaTabla"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF" />
+
+                <TableRow>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/caracteristicasPista2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/caracteristicasTexto2"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/cubiertaPistaTabla"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF" />
+
+                <TableRow>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/caracteristicasPista3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/caracteristicasTexto3"/>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/materialPistaTabla"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                </TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF" />
+
+                <TableRow tools:ignore="VisualLintBounds">
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                    <TextView
+                        android:id="@+id/caracteristicasPista4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/caracteristicasTexto4"/>
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/precioPistaTabla"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_weight="1"/>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#FFFFFF" />
+                </TableRow>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#FFFFFF" />
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/descripcionPista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcionTexto"
+                android:gravity="center"
+                android:layout_below="@id/tablaCaracteristicas"/>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
